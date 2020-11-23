@@ -1,33 +1,10 @@
 package com.aykuttasil.composeplayground.ui.pages.home
-
-import androidx.compose.Composable
-import androidx.compose.Model
-import androidx.compose.unaryPlus
-import androidx.ui.core.Clip
-import androidx.ui.core.Text
-import androidx.ui.core.dp
-import androidx.ui.foundation.DrawImage
-import androidx.ui.foundation.shape.corner.RoundedCornerShape
-import androidx.ui.graphics.Color
-import androidx.ui.layout.Column
-import androidx.ui.layout.Container
-import androidx.ui.layout.Expanded
-import androidx.ui.layout.ExpandedHeight
-import androidx.ui.layout.Height
-import androidx.ui.layout.HeightSpacer
-import androidx.ui.layout.Row
-import androidx.ui.layout.Spacing
-import androidx.ui.material.Button
-import androidx.ui.material.Divider
-import androidx.ui.material.MaterialTheme
-import androidx.ui.material.withOpacity
-import androidx.ui.res.imageResource
-import androidx.ui.text.style.TextOverflow
+/*
+import androidx.compose.runtime.Composable
 import com.aykuttasil.composeplayground.R
 import com.aykuttasil.composeplayground.ui.dialogs.presentDialog
 import com.aykuttasil.composeplayground.ui.dialogs.showDialogState
 
-@Model
 class CounterState(var counter: Int = 0)
 
 @Composable
@@ -88,3 +65,5 @@ fun Greeting(name: String) {
         overflow = TextOverflow.Ellipsis
     )
 }
+
+ */

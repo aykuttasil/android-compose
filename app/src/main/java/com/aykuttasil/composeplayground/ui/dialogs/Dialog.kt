@@ -1,12 +1,6 @@
 package com.aykuttasil.composeplayground.ui.dialogs
-
-import androidx.compose.Composable
-import androidx.compose.state
-import androidx.compose.unaryPlus
-import androidx.ui.core.Text
-import androidx.ui.material.AlertDialog
-import androidx.ui.material.AlertDialogButtonLayout
-import androidx.ui.material.Button
+/*
+import androidx.compose.runtime.Composable
 
 // Here i created the variable of type State<Boolean> which will be used to
 // show/hide the alert dialog
@@ -42,3 +36,5 @@ fun presentDialog() {
             buttonLayout = AlertDialogButtonLayout.SideBySide
         )
 }
+
+ */

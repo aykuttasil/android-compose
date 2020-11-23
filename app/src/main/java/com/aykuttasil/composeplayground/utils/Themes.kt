@@ -1,9 +1,8 @@
 package com.aykuttasil.composeplayground.utils
+/*
+import androidx.compose.ui.graphics.Color
 
-import androidx.ui.graphics.Color
-import androidx.ui.material.ColorPalette
-
-val lightThemeColors = ColorPalette(
+val lightThemeColors = (
     primary = Color(0xFFDD0D3C),
     primaryVariant = Color(0xFFC20029),
     onPrimary = Color.White,
@@ -32,3 +31,4 @@ val darkThemeColors = ColorPalette(
     onBackground = Color.White,
     onSurface = Color.White
 )
+ */

@@ -1,23 +1,14 @@
 package com.aykuttasil.composeplayground
 
-import androidx.compose.Composable
-import androidx.ui.core.dp
-import androidx.ui.foundation.shape.border.Border
-import androidx.ui.graphics.Color
-import androidx.ui.layout.Padding
-import androidx.ui.material.MaterialTheme
-import androidx.ui.material.surface.Surface
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+
 
 @Composable
-fun MyApp(children: @Composable() () -> Unit) {
+fun MyApp(children: @Composable () -> Unit) {
     MaterialTheme {
-        Padding(padding = 5.dp) {
-            Surface(
-                color = Color.Cyan,
-                border = Border(color = Color.Black, width = 3.dp)
-            ) {
-                children()
-            }
-        }
+        Text(text = "Selam")
+        children()
     }
 }

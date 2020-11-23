@@ -1,8 +1,5 @@
 package com.aykuttasil.composeplayground
-
-import androidx.compose.Model
-import androidx.compose.frames.ModelList
-
+/*
 /**
  * Class defining the screens we have in the app: home, article details and interests
  */
@@ -12,7 +9,6 @@ sealed class Screen {
     object Interests : Screen()
 }
 
-@Model
 object AppStatus {
     var currentScreen: Screen = Screen.Home
     val favorites = ModelList<String>()
@@ -25,3 +21,5 @@ object AppStatus {
 fun navigateTo(destination: Screen) {
     AppStatus.currentScreen = destination
 }
+
+ */
